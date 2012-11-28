@@ -4,28 +4,28 @@
     android:layout_height="match_parent" >
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/textView_author_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:text="作者: " />
+        android:text="@string/key_author_name" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_toRightOf="@+id/textView1"
-        android:text="Chinnkou" />
+        android:layout_toRightOf="@+id/textView_author_name"
+        android:text="@string/value_author_name" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:layout_below="@+id/textView1"
-        android:text="版本: " />
+        android:layout_below="@+id/textView_author_name"
+        android:text="@string/key_version" />
 
     <TextView
         android:id="@+id/textView4"
@@ -34,7 +34,7 @@
         android:layout_alignBaseline="@+id/textView3"
         android:layout_alignBottom="@+id/textView3"
         android:layout_toRightOf="@+id/textView3"
-        android:text="1.0.0" />
+        android:text="@string/value_version" />
 
     <TextView
         android:id="@+id/textView5"
@@ -42,15 +42,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/textView3"
-        android:text="Email: " />
-
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@+id/textView5"
-        android:text="Copyright @ 2012" />
+        android:text="@string/key_author_email" />
 
     <TextView
         android:id="@+id/textView6"
@@ -58,6 +50,14 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView4"
         android:layout_toRightOf="@+id/textView5"
-        android:text="chinnkou@163.com" />
+        android:text="@string/value_author_email" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView5"
+        android:text="@string/copyright_info" />
 
 </RelativeLayout>

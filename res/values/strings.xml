@@ -4,5 +4,12 @@
     <string name="app_name">个人所得税计算器</string>
     <string name="menu_settings">设置</string>
     <string name="menu_about">关于</string>
+    <string name="key_version">版本：</string>
+    <string name="value_version">1.0.1</string>
+    <string name="key_author_name">作者：</string>
+    <string name="value_author_name">Chinnkou</string>
+    <string name="key_author_email">Email：</string>
+    <string name="value_author_email">chinnkou@163.com</string>
+    <string name="copyright_info">Copyright @ 2012</string>
 
 </resources>
